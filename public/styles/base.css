@@ -1,4 +1,5 @@
 .thumbnail {
+  cursor:pointer;
   border-radius: 0px;
   margin-bottom: 0px;
 }
@@ -8,182 +9,202 @@
 }
 
 #ambient-sparse {
+  cursor:pointer;
   background-image: url('../images/ambient-sparse.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #acoustic-guitar {
+  cursor:pointer;
   background-image: url('../images/acoustic-guitar.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #banjo-with-ebow {
+  cursor:pointer;
   background-image: url('../images/banjo.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #cello {
+  cursor:pointer;
   background-image: url('../images/cello.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #clarinet {
+  cursor:pointer;
   background-image: url('../images/clarinet.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #ebow {
+  cursor:pointer;
   background-image: url('../images/ebow.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #electribe-mx {
+  cursor:pointer;
   background-image: url('../images/electribe-mx.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #electric-bass {
+  cursor:pointer;
   background-image: url('../images/electric-bass.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #electric-guitar {
+  cursor:pointer;
   background-image: url('../images/electric-guitar.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #harmon-trumpet {
+  cursor:pointer;
   background-image: url('../images/harmon-trumpet.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #information {
+  cursor:pointer;
   background-image: url('../images/information.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #kaoss-pad-synth {
+  cursor:pointer;
   background-image: url('../images/kaoss-pad-synth.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #mallets {
+  cursor:pointer;
   background-image: url('../images/mallets.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #nintendo-ds {
+  cursor:pointer;
   background-image: url('../images/nintendo-ds.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #omnichord-and-qchord {
+  cursor:pointer;
   background-image: url('../images/omnichord-and-qchord.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #piano {
+  cursor:pointer;
   background-image: url('../images/piano.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #rhodes-piano {
+  cursor:pointer;
   background-image: url('../images/rhodes-piano.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #toy-sax {
+  cursor:pointer;
   background-image: url('../images/saxophone.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 #vocals {
+  cursor:pointer;
   background-image: url('../images/vocals.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }
 
 
 #violin {
+  cursor:pointer;
   background-image: url('../images/violin.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
-  min-width: 300px;
+  /*min-width: 300px;*/
 }

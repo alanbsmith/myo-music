@@ -25,6 +25,12 @@ io.on('connection', function(client) {
     //client.emit(data);
     console.log(data)
   });
+
+  client.on('play', function(data) {
+    io.sockets.emit('play', data);
+    console.log('server-side data:', data)
+  });
+
 });
 
 
