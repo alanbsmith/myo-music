@@ -4,6 +4,18 @@
   margin-bottom: 0px;
 }
 
+.thumbnail .caption {
+  color: #000000;
+}
+
+.play {
+  background-color: #c626ff;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  border: none;
+  color: #ffffff;
+}
+
 .col-xs-3 {
   padding: 5px;
 }

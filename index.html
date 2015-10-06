@@ -182,13 +182,28 @@
   });
 
 var context = new AudioContext();
+var instruments = [];
 
 var playInstrument = function(instrument) {
-  music = new Audio();
+  var music = new Audio();
   music.src = ('./instruments/' + instrument + '.mp3');
   var source = context.createMediaElementSource(music);
   source.connect(context.destination);
   source.mediaElement.play();
+  $('#' + instrument).addClass('play');
+  instruments.push({ name: instrument, audio: music})
+  console.log("Now Playing:", instrument);
+}
+
+var pauseInstrument = function(instrument) {
+  for(i = 0; i < instruments.length; i++) {
+     if(instruments[i].name == instrument) {
+       instruments[i].audio.pause();
+       instruments.splice(i, 1);
+     }
+  }
+  $('#' + instrument).removeClass('play');
+  console.log("Stopping:", instrument);
 }
 
 $('.thumbnail').click(function(event) {
@@ -196,9 +211,11 @@ $('.thumbnail').click(function(event) {
 });
 
 socket.on('play', function(instrument) {
-  playInstrument(instrument);
-  console.log("Now Playing:", instrument);
-
+  if($('#' + instrument).hasClass('play')) {
+    pauseInstrument(instrument);
+  } else {
+    playInstrument(instrument);
+  }
 });
 
 </script>
