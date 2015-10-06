@@ -3,13 +3,13 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 
-var Myo = require('myo');
+// var Myo = require('myo');
 
-var myo = Myo.create();
+// var myo = Myo.create();
 
-myo.on('fist', function(){
-  console.log('fist!')
-})
+// myo.on('fist', function(){
+//   console.log('fist!')
+// })
 
 app.use(express.static(__dirname + '/public'));
 app.get('/', function(request, response) {
