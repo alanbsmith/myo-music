@@ -1,0 +1,189 @@
+.thumbnail {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.col-xs-3 {
+  padding: 5px;
+}
+
+#ambient-sparse {
+  background-image: url('../images/ambient-sparse.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#acoustic-guitar {
+  background-image: url('../images/acoustic-guitar.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#banjo-with-ebow {
+  background-image: url('../images/banjo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#cello {
+  background-image: url('../images/cello.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#clarinet {
+  background-image: url('../images/clarinet.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#ebow {
+  background-image: url('../images/ebow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#electribe-mx {
+  background-image: url('../images/electribe-mx.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#electric-bass {
+  background-image: url('../images/electric-bass.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#electric-guitar {
+  background-image: url('../images/electric-guitar.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#harmon-trumpet {
+  background-image: url('../images/harmon-trumpet.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#information {
+  background-image: url('../images/information.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#kaoss-pad-synth {
+  background-image: url('../images/kaoss-pad-synth.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#mallets {
+  background-image: url('../images/mallets.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#nintendo-ds {
+  background-image: url('../images/nintendo-ds.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#omnichord-and-qchord {
+  background-image: url('../images/omnichord-and-qchord.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#piano {
+  background-image: url('../images/piano.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#rhodes-piano {
+  background-image: url('../images/rhodes-piano.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#toy-sax {
+  background-image: url('../images/saxophone.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#vocals {
+  background-image: url('../images/vocals.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+
+#violin {
+  background-image: url('../images/violin.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+}
