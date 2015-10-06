@@ -12,8 +12,13 @@ var io = require('socket.io')(server);
 // })
 
 app.use(express.static(__dirname + '/public'));
+
 app.get('/', function(request, response) {
   response.sendFile(__dirname + '/index.html');
+});
+
+app.get('/about', function(request, response) {
+  response.sendFile(__dirname + '/about.html');
 });
 
 

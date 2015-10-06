@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Myo Music</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/styles/base.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -10,7 +10,15 @@
 </head>
 <body>
   <div class='container-fluid'>
+    <nav>
+      <ul class="nav nav-pills pull-right">
+        <li role="presentation"><a href="/">Home</a></li>
+        <li role="presentation"><a href="/about">About</a></li>
+        <li role="presentation"><a href="http://inbflat.net/" target='_blank'>InBb</a></li>
+      </ul>
+    </nav>
     <h1>Myo Music</h1>
+    <h5 class='text-muted'>click on an instrument to start playing.</h5>
     <div class='col-xs-3'>
       <div class='thumbnail' id='acoustic-guitar'>
         <div class="caption">
@@ -172,6 +180,7 @@
     </div>
 
   </div>
+  <footer></footer>
 <script src="/socket.io/socket.io.js"></script>
 </body>
 <script>
@@ -181,7 +190,8 @@
     socket.emit('join', 'hello world from the client!');
   });
 
-var context = new AudioContext();
+var AudioContext = window.AudioContext || window.webkitAudioContext;
+var context = new AudioContext;
 var instruments = [];
 
 var playInstrument = function(instrument) {
@@ -189,7 +199,7 @@ var playInstrument = function(instrument) {
   music.src = ('./instruments/' + instrument + '.mp3');
   var source = context.createMediaElementSource(music);
   source.connect(context.destination);
-  source.mediaElement.play();
+  source.mediaElement.play(0);
   $('#' + instrument).addClass('play');
   instruments.push({ name: instrument, audio: music})
   console.log("Now Playing:", instrument);
@@ -198,7 +208,7 @@ var playInstrument = function(instrument) {
 var pauseInstrument = function(instrument) {
   for(i = 0; i < instruments.length; i++) {
      if(instruments[i].name == instrument) {
-       instruments[i].audio.pause();
+       instruments[i].audio.pause(0);
        instruments.splice(i, 1);
      }
   }
