@@ -1,3 +1,13 @@
+#MYO MUSIC
+
+
+###UP & RUNNING
+- run `npm install
+- run `node server.js`
+- open browser to 'http://localhost:8080/'
+
+
+### PEOPLE TO THANK
 violin - [Marco Galtarossa] Violin by Marco Galtarossa from the Noun Project
 
 Xylophone by Renaud Mignerey from the Noun Project
