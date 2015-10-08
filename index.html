@@ -199,13 +199,17 @@ var playInstrument = function(instrument) {
   music.src = ('./instruments/' + instrument + '.mp3');
   var source = context.createMediaElementSource(music);
   source.connect(context.destination);
+  music.addEventListener('ended', function(){
+    endInstrument(instrument);
+  });
   source.mediaElement.play(0);
   $('#' + instrument).addClass('play');
   instruments.push({ name: instrument, audio: music})
   console.log("Now Playing:", instrument);
 }
 
-var pauseInstrument = function(instrument) {
+var endInstrument = function(instrument) {
+  console.log(instrument)
   for(i = 0; i < instruments.length; i++) {
      if(instruments[i].name == instrument) {
        instruments[i].audio.pause(0);
@@ -213,7 +217,7 @@ var pauseInstrument = function(instrument) {
      }
   }
   $('#' + instrument).removeClass('play');
-  console.log("Stopping:", instrument);
+  console.log(instrument + ' has ended.');
 }
 
 $('.thumbnail').click(function(event) {
@@ -222,7 +226,7 @@ $('.thumbnail').click(function(event) {
 
 socket.on('play', function(instrument) {
   if($('#' + instrument).hasClass('play')) {
-    pauseInstrument(instrument);
+    endInstrument(instrument);
   } else {
     playInstrument(instrument);
   }
