@@ -9,14 +9,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class='container-fluid'>
-    <nav>
-      <ul class="nav nav-pills pull-right">
-        <li role="presentation"><a href="/">Home</a></li>
-        <li role="presentation"><a href="/about">About</a></li>
-        <li role="presentation"><a href="http://inbflat.net/" target='_blank'>InBb</a></li>
-      </ul>
-    </nav>
+ <body>
+  <div id='wrapper'>
+    <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="http://inbflat.net/" target='_blank'>InBb</a></li>
+    </ul>
+  </div>
+  <div id='page-content-wrapper'>
+    <div class='container-fluid'>
+    <a href="#menu-toggle" class="btn btn-menu glyphicon glyphicon-menu-hamburger" id="menu-toggle"></a>
+
     <h1>About</h1>
     <p>This project is strongly inspired by <a href='https://twitter.com/Darsolo' target='_blank'>Darren Solomon's</a> fantastic project, <a href='http://inbflat.net/' target='_blank'>In Bb 2.0</a>. This modification of the project utilizes websockets to allow people to play instruments together in collaboration. To play an instrument, simply click on the image. To stop playing, click it again.</p>
 
@@ -44,5 +49,14 @@
     <p class='credits'>VOCALS             - Microphone by Shahriar Emil from the Noun Project</p>
   </div>
   <footer></footer>
+</div>
+</div>
 </body>
 </html>
+<script>
+
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+  });
+</script>

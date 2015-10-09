@@ -2,8 +2,12 @@ footer {
   height: 80px;
 }
 
+p {
+  font-size: 14px;
+}
+
 a, a:hover, a:active {
-  color: #39d900;
+  color: #00b4d6;
   text-decoration: none;
 }
 
@@ -17,16 +21,24 @@ a, a:hover, a:active {
   margin-bottom: 0px;
 }
 
+.thumbnail:hover {
+  background-color: #24dcff;
+}
+
 .thumbnail .caption {
   color: #000000;
 }
 
 .play {
-  background-color: #c626ff;
+  background-color: #ff4b29;
   filter: invert(100%);
   -webkit-filter: invert(100%);
   border: none;
   color: #ffffff;
+}
+
+.play:hover {
+  background-color: #db2300;
 }
 
 .col-xs-3 {
@@ -42,9 +54,8 @@ a, a:hover, a:active {
   background-image: url('../images/ambient-sparse.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #acoustic-guitar {
@@ -52,9 +63,8 @@ a, a:hover, a:active {
   background-image: url('../images/acoustic-guitar.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #banjo-with-ebow {
@@ -62,9 +72,8 @@ a, a:hover, a:active {
   background-image: url('../images/banjo.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #cello {
@@ -72,9 +81,8 @@ a, a:hover, a:active {
   background-image: url('../images/cello.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #clarinet {
@@ -82,9 +90,8 @@ a, a:hover, a:active {
   background-image: url('../images/clarinet.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #ebow {
@@ -92,9 +99,8 @@ a, a:hover, a:active {
   background-image: url('../images/ebow.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #electribe-mx {
@@ -102,9 +108,8 @@ a, a:hover, a:active {
   background-image: url('../images/electribe-mx.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #electric-bass {
@@ -112,9 +117,8 @@ a, a:hover, a:active {
   background-image: url('../images/electric-bass.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #electric-guitar {
@@ -122,9 +126,8 @@ a, a:hover, a:active {
   background-image: url('../images/electric-guitar.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #harmon-trumpet {
@@ -132,9 +135,8 @@ a, a:hover, a:active {
   background-image: url('../images/harmon-trumpet.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #information {
@@ -142,9 +144,8 @@ a, a:hover, a:active {
   background-image: url('../images/information.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #kaoss-pad-synth {
@@ -152,9 +153,8 @@ a, a:hover, a:active {
   background-image: url('../images/kaoss-pad-synth.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #mallets {
@@ -162,9 +162,8 @@ a, a:hover, a:active {
   background-image: url('../images/mallets.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #nintendo-ds {
@@ -172,9 +171,8 @@ a, a:hover, a:active {
   background-image: url('../images/nintendo-ds.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #omnichord-and-qchord {
@@ -182,9 +180,8 @@ a, a:hover, a:active {
   background-image: url('../images/omnichord-and-qchord.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #piano {
@@ -192,9 +189,8 @@ a, a:hover, a:active {
   background-image: url('../images/piano.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #rhodes-piano {
@@ -202,9 +198,8 @@ a, a:hover, a:active {
   background-image: url('../images/rhodes-piano.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #toy-sax {
@@ -212,9 +207,8 @@ a, a:hover, a:active {
   background-image: url('../images/saxophone.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 #vocals {
@@ -222,9 +216,8 @@ a, a:hover, a:active {
   background-image: url('../images/vocals.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
 
 
@@ -233,7 +226,137 @@ a, a:hover, a:active {
   background-image: url('../images/violin.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
   min-height: 300px;
-  /*min-width: 300px;*/
 }
+
+/* Sidebar Styles */
+.btn {
+  border-radius: 0;
+}
+
+.btn-menu {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.glyphicon {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #262626;
+  font-size: 24px;
+}
+
+.glyphicon:hover {
+  color: #24dcff;
+}
+
+.glyphicon:focus {
+  color: #00b4d6;
+}
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #00b4d6;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #24dcff;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
