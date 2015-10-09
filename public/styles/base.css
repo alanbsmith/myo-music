@@ -2,7 +2,16 @@ footer {
   height: 80px;
 }
 
+h1, h3, h5 {
+  font-weight: 100;
+}
+
+span.blue {
+  color: #00b4d6;
+}
+
 p {
+  font-weight: 100;
   font-size: 14px;
 }
 
@@ -21,9 +30,9 @@ a, a:hover, a:active {
   margin-bottom: 0px;
 }
 
-.thumbnail:hover {
+/*.thumbnail:hover {
   background-color: #24dcff;
-}
+}*/
 
 .thumbnail .caption {
   color: #000000;
@@ -37,25 +46,13 @@ a, a:hover, a:active {
   color: #ffffff;
 }
 
-.play:hover {
-  background-color: #db2300;
-}
-
 .col-xs-3 {
   padding: 5px;
 }
 
 .credits {
   margin-bottom: 0px;
-}
-
-#ambient-sparse {
-  cursor:pointer;
-  background-image: url('../images/ambient-sparse.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
-  min-height: 300px;
+  font-size: 18px;
 }
 
 #acoustic-guitar {
@@ -67,6 +64,23 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+#acoustic-guitar:hover {
+  background-size: cover;
+}
+
+#ambient-sparse {
+  cursor:pointer;
+  background-image: url('../images/ambient-sparse.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  min-height: 300px;
+}
+
+#ambient-sparse:hover {
+  background-size: cover;
+}
+
 #banjo-with-ebow {
   cursor:pointer;
   background-image: url('../images/banjo.png');
@@ -74,6 +88,10 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+#banjo-with-ebow:hover {
+  background-size: cover;
 }
 
 #cello {
@@ -85,6 +103,10 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+#cello:hover {
+  background-size: cover;
+}
+
 #clarinet {
   cursor:pointer;
   background-image: url('../images/clarinet.png');
@@ -92,6 +114,10 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+#clarinet:hover {
+  background-size: cover;
 }
 
 #ebow {
@@ -103,6 +129,10 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+#ebow:hover {
+  background-size: cover;
+}
+
 #electribe-mx {
   cursor:pointer;
   background-image: url('../images/electribe-mx.png');
@@ -110,6 +140,10 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+#electribe-mx:hover {
+  background-size: cover;
 }
 
 #electric-bass {
@@ -121,6 +155,11 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+#electric-bass:hover {
+  background-size: cover;
+}
+
+
 #electric-guitar {
   cursor:pointer;
   background-image: url('../images/electric-guitar.png');
@@ -128,6 +167,10 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+#electric-guitar:hover {
+  background-size: cover;
 }
 
 #harmon-trumpet {
@@ -139,6 +182,10 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+#harmon-trumpet:hover {
+  background-size: cover;
+}
+
 #information {
   cursor:pointer;
   background-image: url('../images/information.png');
@@ -146,6 +193,10 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+#information:hover {
+  background-size: cover;
 }
 
 #kaoss-pad-synth {
@@ -157,6 +208,10 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+#kaoss-pad-synth:hover {
+  background-size: cover;
+}
+
 #mallets {
   cursor:pointer;
   background-image: url('../images/mallets.png');
@@ -164,6 +219,10 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+#mallets:hover {
+  background-size: cover;
 }
 
 #nintendo-ds {
@@ -175,6 +234,10 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+#nintendo-ds:hover {
+  background-size: cover;
+}
+
 #omnichord-and-qchord {
   cursor:pointer;
   background-image: url('../images/omnichord-and-qchord.png');
@@ -182,6 +245,10 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+#omnichord-and-qchord:hover {
+  background-size: cover;
 }
 
 #piano {
@@ -193,6 +260,10 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+#piano:hover {
+  background-size: cover;
+}
+
 #rhodes-piano {
   cursor:pointer;
   background-image: url('../images/rhodes-piano.png');
@@ -200,6 +271,11 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+
+#rhodes-piano:hover {
+  background-size: cover;
 }
 
 #toy-sax {
@@ -211,6 +287,11 @@ a, a:hover, a:active {
   min-height: 300px;
 }
 
+
+#toy-sax:hover {
+  background-size: cover;
+}
+
 #vocals {
   cursor:pointer;
   background-image: url('../images/vocals.png');
@@ -218,6 +299,10 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+#vocals:hover {
+  background-size: cover;
 }
 
 
@@ -228,6 +313,11 @@ a, a:hover, a:active {
   background-position: center;
   background-size: 90%;
   min-height: 300px;
+}
+
+
+#violin:hover {
+  background-size: cover;
 }
 
 /* Sidebar Styles */
@@ -312,6 +402,8 @@ a, a:hover, a:active {
 }
 
 .sidebar-nav li a {
+    font-weight: 100px;
+    font-size: 18px;
     display: block;
     text-decoration: none;
     color: #ffffff;
